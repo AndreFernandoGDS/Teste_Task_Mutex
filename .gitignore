@@ -1,52 +1,57 @@
-# Prerequisites
-*.d
+.project
+.cproject
+.settings/
 
-# Object files
-*.o
-*.ko
-*.obj
+# IDEs
+.vs/
+.idea/
+
+# CMake
+cmake-build-debug/
+
+build/
+sdkconfig
+sdkconfig.old
+
+   
+               Gitignore gerado pelo ChatGPT
+
+
+# Arquivos e diretórios gerados pelo ambiente de desenvolvimento
+build/
+components/
+sdkconfig
+sdkconfig.old
+
+# Arquivos de compilação e saída
+*.bin
 *.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
 *.hex
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# Arquivos de depuração
+*.d
+*.map
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Diretório de ferramentas CMake
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+CMakeSettings.json
+
+# Diretórios e arquivos temporários
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Arquivos de registro e saída de depuração
+*.log
+*.log.*
+*.log_*
+*.log-*
+
+# Arquivos de configuração de editor
+.editorconfig
+
+# Outros arquivos específicos do ambiente
+sdkconfig.old
